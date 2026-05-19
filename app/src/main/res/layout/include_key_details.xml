@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:baselineAligned="false">
+
+    <LinearLayout style="@style/KeyDetailItem">
+        <ImageView style="@style/KeyDetailIcon" android:src="@drawable/ic_clock"/>
+        <TextView style="@style/KeyDetailLabel" android:text="@string/duration" />
+        <TextView style="@style/KeyDetailValue" android:id="@+id/tv_trip_detail_duration" tools:text="7 Days" />
+    </LinearLayout>
+
+    <View style="@style/KeyDetailDivider"/>
+
+    <LinearLayout style="@style/KeyDetailItem">
+        <ImageView style="@style/KeyDetailIcon" android:src="@drawable/ic_star"/>
+        <TextView style="@style/KeyDetailLabel" android:text="@string/rating" />
+        <TextView style="@style/KeyDetailValue" android:id="@+id/tv_trip_detail_rating" tools:text="4.5 / 5" />
+    </LinearLayout>
+</LinearLayout>

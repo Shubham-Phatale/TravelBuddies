@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Blue gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:endColor="#FF0D47A1"
+                android:startColor="#FF1565C0"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Centered logo -->
+    <item
+        android:bottom="120dp"
+        android:gravity="center"
+        android:height="96dp"
+        android:width="96dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_travel_logo"
+            android:tint="#FFFFFFFF" />
+    </item>
+
+</layer-list>
