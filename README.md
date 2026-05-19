@@ -4,6 +4,22 @@ A social travel planning Android app that lets users discover trips, build itine
 
 ---
 
+## Screenshots
+
+| Login | Sign Up | Home |
+|-------|---------|------|
+| ![Login](appImages/login_screen.png) | ![Sign Up](appImages/signup_screen.png) | ![Home](appImages/home_screen.png) |
+
+| Explore | Trip Itinerary | Booking |
+|---------|---------------|---------|
+| ![Explore](appImages/explore_screen.png) | ![Itinerary](appImages/trip_itinerary_screen.png) | ![Booking](appImages/trip_booking_screen.png) |
+
+| Transport | My Bookings | Profile |
+|-----------|-------------|---------|
+| ![Transport](appImages/trip_transport_screen.png) | ![My Bookings](appImages/booking_screen.png) | ![Profile](appImages/profile_screen.png) |
+
+---
+
 ## Features
 
 - **Explore** — Browse curated trip cards with images, price, rating, and duration. Live search by destination or trip name with filter pills (All / Budget / Premium / ≤ 4 Days / 6+ Days).
